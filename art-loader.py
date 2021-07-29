@@ -26,7 +26,7 @@ class Painting:
         self.width, self.height, self.image_link = self.select_biggest_image(painting_data)
         self.image = None
 
-        print(f"Next painting: {self.artist} - {self.title}")
+        print(f"Current painting: {self.artist} - {self.title}")
 
     @staticmethod
     def select_biggest_image(painting_data: dict) -> Tuple[int, int, str]:
